@@ -1,0 +1,9 @@
+body {
+	text-align: center;
+	background: lightblue;
+	font-family: "Comic Sans MS"
+}
+p {color: blue;
+}
+p span {color: red;
+}
