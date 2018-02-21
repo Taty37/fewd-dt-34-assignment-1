@@ -1,9 +1,55 @@
 body {
+	font-family: palatino; 
+	background-size: 100%;
+	padding-top: 3.5rem;
+	margin: 10;
+}
+h1 {
+	font: italic normal bold 30px/70px palatino;
+	background: #6A577B;
+	color: #FFE;
+	padding: auto;
+	border: 1px;
+	width: auto;
+	text-decoration: underline;
+	display: block;
+}
+h2 {
+	font: italic normal bold 20px/30px palatino;
 	text-align: center;
-	background: lightblue;
-	font-family: "Comic Sans MS"
+	background: #6A577B;
+	color: #FFE;
+	padding: .25px;
+	border: .5px;
+	width: 75%;
+	text-decoration: underline;
 }
-p {color: blue;
+p {
+	font-weight: bold;
 }
-p span {color: red;
+* {
+	box-sizing: border-box;
 }
+li {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+div {
+	width: 50%;
+	padding: 5px;
+}
+.column {
+	float: left;
+	padding: 10px;
+}
+a {
+	color: #FFE;
+}
+img {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: 3px solid black;
+}
+
